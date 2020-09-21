@@ -1,0 +1,346 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.main-wrapper {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 920px;
+  background-image: url(../img/header_background_v1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .top-wrapper .logo,
+header .top-wrapper .logo img {
+  width: 232px;
+  height: 147px;
+}
+
+header .top-wrapper nav {
+  width: 51%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 115px;
+}
+
+header .top-wrapper nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+header section {
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 252px;
+}
+
+header section h1 {
+  letter-spacing: -1px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 200px;
+  height: 38px;
+  background-color: mediumturquoise;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  outline: none;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: darkcyan;
+}
+
+.btn-top {
+  width: 200px;
+  height: 46px;
+  font-size: 14px;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+main .toolbar {
+  margin: 20px 10px 17px 0;
+  text-align: right;
+}
+
+main .toolbar input {
+  height: 38px;
+  width: 200px;
+  padding-left: 19px;
+}
+
+main .toolbar input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: black;
+}
+
+main .toolbar input:-ms-input-placeholder {
+  font-size: 14px;
+  color: black;
+}
+
+main .toolbar input::-ms-input-placeholder {
+  font-size: 14px;
+  color: black;
+}
+
+main .toolbar input::placeholder {
+  font-size: 14px;
+  color: black;
+}
+
+main .post-list h1 {
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: -1px;
+}
+
+main .post-list article {
+  width: 100%;
+  height: 302px;
+  padding: 10px 20px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+main .post-list article img {
+  margin-right: 10px;
+  width: 282px;
+}
+
+main .post-list article > div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .post-list article > div button {
+  margin-top: 20px;
+}
+
+main .post-list article > div .post {
+  width: 100%;
+  max-height: 100%;
+}
+
+main .post-list article > div .post .post-description {
+  height: 35px;
+  color: crimson;
+  border-bottom: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  font-size: 12px;
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+}
+
+main .post-list article > div .post h3 {
+  font-size: 18px;
+  margin-top: 7px;
+  color: darkcyan;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+
+main .post-list article > div .post p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+main .about {
+  margin-top: 60px;
+  padding: 0 15px;
+}
+
+main .about > div p {
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+main .about > div h1 {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
+main .about > div img {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+main .contact-form h1 {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+main .contact-form h4 {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
+main .contact-form form {
+  width: 100%;
+  height: 300px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 30px;
+}
+
+main .contact-form form .row {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .contact-form form .row div {
+  width: 49.5%;
+}
+
+main .contact-form form .row div label {
+  font-size: 14px;
+  color: darkcyan;
+}
+
+main .contact-form form .row div input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  margin-top: 5px;
+}
+
+main .contact-form form .area {
+  width: 100%;
+  height: 120px;
+  margin: 20px 0 40px;
+}
+
+main .contact-form form .area label {
+  font-size: 14px;
+  color: darkcyan;
+}
+
+main .contact-form form .area textarea {
+  width: 100%;
+  height: 110px;
+  resize: none;
+  margin-top: 5px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer span {
+  font-size: 12px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
